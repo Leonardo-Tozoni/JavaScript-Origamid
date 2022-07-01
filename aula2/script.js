@@ -28,7 +28,7 @@ var ela = 18
 if(eu > ela){
   console.log('É maior')
 }
-else if(eu == ela){
+else if(eu === ela){
   console.log('É igual')
 }
 else{
@@ -47,9 +47,17 @@ var possuiDoutorado = false;
 var empregoFuturo;
 var dinheiroNaConta = 0;
 
+console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta)
+
 // Compare o total de habitantes do Brasil com China (valor em milhões)
 var brasil = 207;
 var china = 1340;
+
+if (brasil > china) {
+  console.log('Brasil tem mais habitantes')
+} else {
+  console.log('Brasil tem menos habitantes')
+}
 
 // O que irá aparecer no console? "Falso"
 if(('Gato' === 'gato') && (5 > 2)) {
