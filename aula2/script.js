@@ -47,7 +47,7 @@ var possuiDoutorado = false;
 var empregoFuturo;
 var dinheiroNaConta = 0;
 
-console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta)
+console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta) // !!serve para verificarmos se a variável está como true ou false
 
 // Compare o total de habitantes do Brasil com China (valor em milhões)
 var brasil = 207;
