@@ -60,15 +60,15 @@ carro.preco = 3000;
 // Crie um objeto de um cachorro que represente um labrador,
 // preto com 10 anos, que late ao ver um homem
 
-var cachorro = {
-  raca: 'Labrador',
-  cor: 'Preto',
-  idade: 10,
-  latir(pessoa){
-    if (pessoa === 'homem') {
-      return 'Latir';
-    } else {
-      return 'Nada';
+var cachorro = { // defini que é um cachorro (chamamos de objeto)
+  raca: 'Labrador', // defini sua raça
+  cor: 'Preto', // defini sua cor
+  idade: 10, // e defini sua idade
+  latir(pessoa){ //latir é uma ação, então criamos uma função a partir disso.
+    if (pessoa === 'homem') { //condição: Se a pessoa for homem
+      return 'Latir'; // o cachorro deve latir
+    } else { // Se não for homem
+      return 'Nada'; //não deve acontecer nada
     }
   }
 }
